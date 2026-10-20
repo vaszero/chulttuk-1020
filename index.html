@@ -15,6 +15,7 @@
   --bg:#1C1E1C; --surface:#262926; --ink:#E7E7E1; --muted:#A6A69C; --line:#3B3F3B;
   --green:#7FB3A2; --green-soft:#2C3A35; --sage:#8C8C7D; --warn:#E08A62; color-scheme:dark}
 *{box-sizing:border-box}
+[hidden]{display:none!important}
 body{background:var(--bg);color:var(--ink);font-family:var(--f);font-size:17px;line-height:1.6;margin:0}
 body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
 .wrap{max-width:860px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:20px 80px}
